@@ -10,6 +10,6 @@ public class Products {
     private int price;
     private String description;
     private String image;
-    private Categories category;
+    private int category_id;
 
 }
