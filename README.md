@@ -25,8 +25,7 @@ Segue o modelo para o banco de dados:
 
 **Método GET** - https://ctdcommerce.com/products: <br>
 este end-point deverá disponibilizar os dados de todos os produtos cadastrados em um JSON com o formato que segue:
-```javascript
-//output
+```json
 [
   {
     "id": 1,
@@ -36,14 +35,14 @@ este end-point deverá disponibilizar os dados de todos os produtos cadastrados 
     "description": "Descrição do produto 1",
     "image": "https://via.placeholder.com/150"
   },
-  /*...*/
+  {
+  }
 ]
 ```
 
 Método GET - https://ctdcommerce.com/products/1: <br>
 este end-point deverá disponibilizar os dados de um produto específico em um JSON  com o formato que segue:
-```javascript
-//output
+```json
   {
     "id": 1,
     "title": "Produto 1",
@@ -56,8 +55,7 @@ este end-point deverá disponibilizar os dados de um produto específico em um J
 
 Método GET - https://ctdcommerce.com/products/categories: <br>
 este end-point deverá disponibilizar uma lista de categorias cadastradas em um JSON  com o formato que segue:
-```javascript
-//output
+```json
 [
   "Categoria 1",
   "Categoria 2",
@@ -67,8 +65,7 @@ este end-point deverá disponibilizar uma lista de categorias cadastradas em um 
 Método GET - https://ctdcommerce.com/products/category/jewelery: <br>
 este end-point deverá disponibilizar os produtos de uma determinada categoria, em um JSON  com o formato a seguir:
 
-```javascript
-//output
+```json
 [
   {
     "id": 1,
@@ -78,7 +75,8 @@ este end-point deverá disponibilizar os produtos de uma determinada categoria, 
     "description": "Descrição do produto 1",
     "image": "https://via.placeholder.com/150"
   },
-  /*...*/
+  {
+  }
 ]
 ```
 
