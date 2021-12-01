@@ -21,7 +21,7 @@ Segue o modelo para o banco de dados:
 
 ![](./res/uml.png)
 
-### O projeto deverá disponibilizar uma API com quatro end-points:
+## O projeto deverá disponibilizar uma API com quatro end-points:
 
 **Método GET** - https://ctdcommerce.com/products: <br>
 este end-point deverá disponibilizar os dados de todos os produtos cadastrados em um JSON com o formato que segue:
@@ -40,7 +40,7 @@ este end-point deverá disponibilizar os dados de todos os produtos cadastrados 
 ]
 ```
 
-Método GET - https://ctdcommerce.com/products/1: <br>
+**Método GET** - https://ctdcommerce.com/products/1: <br>
 este end-point deverá disponibilizar os dados de um produto específico em um JSON  com o formato que segue:
 ```json
   {
@@ -53,7 +53,7 @@ este end-point deverá disponibilizar os dados de um produto específico em um J
   }
 ```
 
-Método GET - https://ctdcommerce.com/products/categories: <br>
+**Método GET** - https://ctdcommerce.com/products/categories: <br>
 este end-point deverá disponibilizar uma lista de categorias cadastradas em um JSON  com o formato que segue:
 ```json
 [
@@ -62,9 +62,9 @@ este end-point deverá disponibilizar uma lista de categorias cadastradas em um 
   "Categoria 3"
 ]
 ```
-Método GET - https://ctdcommerce.com/products/category/jewelery: <br>
-este end-point deverá disponibilizar os produtos de uma determinada categoria, em um JSON  com o formato a seguir:
 
+**Método GET** - https://ctdcommerce.com/products/category/jewelery: <br>
+este end-point deverá disponibilizar os produtos de uma determinada categoria, em um JSON  com o formato a seguir:
 ```json
 [
   {
