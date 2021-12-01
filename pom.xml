@@ -8,7 +8,7 @@
 		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.turma04</groupId>
+	<groupId>br.com.grupo04</groupId>
 	<artifactId>ctd-commerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ctd-commerce</name>
