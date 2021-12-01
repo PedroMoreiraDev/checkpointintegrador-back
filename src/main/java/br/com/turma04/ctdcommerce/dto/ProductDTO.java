@@ -1,8 +1,14 @@
 package br.com.turma04.ctdcommerce.dto;
 
 import br.com.turma04.ctdcommerce.entities.Product;
+import lombok.Getter;
+import lombok.Setter;
 
-public class ProductDTO {
+import java.io.Serializable;
+
+@Getter
+@Setter
+public class ProductDTO implements Serializable {
 
     private Long id;
     private String title;

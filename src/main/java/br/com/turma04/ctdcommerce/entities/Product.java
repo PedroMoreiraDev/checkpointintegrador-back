@@ -9,6 +9,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Entity
+@Table(name = "product")
 public class Product implements Serializable {
 
     @Id
@@ -22,4 +23,15 @@ public class Product implements Serializable {
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
+
+    public Product() {
+    }
+
+    public Product(String title, Double price, String description, String image, Category category) {
+        this.title = title;
+        this.price = price;
+        this.description = description;
+        this.image = image;
+        this.category = category;
+    }
 }
