@@ -1,6 +1,6 @@
 package br.com.turma04.ctdcommerce.controllers;
 
-import br.com.turma04.ctdcommerce.services.CategoryService;
+import br.com.turma04.ctdcommerce.services.impl.CategoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ import java.util.List;
 public class CategoryController {
 
     @Autowired
-    private CategoryService service;
+    private CategoryServiceImpl service;
 
     @RequestMapping
     public List<String> listCategories() {

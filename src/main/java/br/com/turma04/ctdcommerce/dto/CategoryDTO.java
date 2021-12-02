@@ -1,6 +1,6 @@
 package br.com.turma04.ctdcommerce.dto;
 
-import br.com.turma04.ctdcommerce.entities.Category;
+import br.com.turma04.ctdcommerce.persistence.entities.Category;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,13 +10,13 @@ import java.io.Serializable;
 @Setter
 public class CategoryDTO implements Serializable {
 
-    private Long id;
+    private Integer id;
     private String name;
 
     public CategoryDTO() {
     }
 
-    public CategoryDTO(Long id, String name) {
+    public CategoryDTO(Integer id, String name) {
         this.id = id;
         this.name = name;
     }

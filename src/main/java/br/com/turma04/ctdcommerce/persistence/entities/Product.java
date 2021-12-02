@@ -1,4 +1,4 @@
-package br.com.turma04.ctdcommerce.entities;
+package br.com.turma04.ctdcommerce.persistence.entities;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,11 +13,21 @@ import java.io.Serializable;
 public class Product implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @SequenceGenerator( name="product_sequence", sequenceName = "product_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_sequence")
+    @Column(name="id")
+    private Integer id;
+
+    @Column(name="title", length = 50, nullable = false)
     private String title;
+
+    @Column(name="price", precision=10, scale=2, nullable = false)
     private Double price;
+
+    @Column(name="description", length = 255, nullable = false)
     private String description;
+
+    @Column(name="image", length = 255, nullable = false)
     private String image;
 
     @ManyToOne

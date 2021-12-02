@@ -2,7 +2,7 @@ package br.com.turma04.ctdcommerce.controllers;
 
 
 import br.com.turma04.ctdcommerce.dto.ProductDTO;
-import br.com.turma04.ctdcommerce.services.ProductService;
+import br.com.turma04.ctdcommerce.services.impl.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-    private ProductService service;
+    private ProductServiceImpl service;
 
     @GetMapping
     public ResponseEntity<List<ProductDTO>> findAll() {
@@ -26,7 +26,7 @@ public class ProductController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ProductDTO> findById(@PathVariable Long id) {
+    public ResponseEntity<ProductDTO> findById(@PathVariable Integer id) {
         ProductDTO product = service.findById(id);
         return ResponseEntity.ok().body(product);
     }
