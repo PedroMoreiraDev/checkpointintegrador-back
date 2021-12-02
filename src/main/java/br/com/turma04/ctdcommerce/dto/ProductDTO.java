@@ -15,12 +15,12 @@ public class ProductDTO implements Serializable {
     private Double price;
     private String description;
     private String image;
-    private CategoryDTO category;
+    private String category;
 
     public ProductDTO() {
     }
 
-    public ProductDTO(Integer id, String title, Double price, String description, String image, CategoryDTO category) {
+    public ProductDTO(Integer id, String title, Double price, String description, String image, String category) {
         this.id = id;
         this.title = title;
         this.price = price;
@@ -35,6 +35,6 @@ public class ProductDTO implements Serializable {
         price = product.getPrice();
         description = product.getDescription();
         image = product.getImage();
-        category = product.getCategory() != null ? new CategoryDTO(product.getCategory()) : null;
+        category = product.getCategory().getName();
     }
 }
