@@ -14,8 +14,7 @@ public class Category implements Serializable {
 
     @Id
     @Column(name="id")
-    @SequenceGenerator(name="category_sequence", sequenceName = "category_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "category_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "name", length = 50, nullable = false)
     private String name;

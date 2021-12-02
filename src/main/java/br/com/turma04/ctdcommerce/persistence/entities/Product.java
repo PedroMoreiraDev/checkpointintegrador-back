@@ -14,8 +14,7 @@ public class Product implements Serializable {
 
     @Id
     @Column(name="id")
-    @SequenceGenerator(name="product_sequence", sequenceName = "product_sequence", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_sequence")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name="title", length = 50, nullable = false)
