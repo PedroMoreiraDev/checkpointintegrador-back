@@ -1,7 +1,6 @@
 package br.com.turma04.ctdcommerce.controllers;
 
 
-import br.com.turma04.ctdcommerce.dto.CategoryDTO;
 import br.com.turma04.ctdcommerce.dto.ProductDTO;
 import br.com.turma04.ctdcommerce.services.impl.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
