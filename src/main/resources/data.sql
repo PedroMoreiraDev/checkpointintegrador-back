@@ -18,7 +18,7 @@ INSERT INTO product (title, price, description, image, category_id)
            ('Drone Ryze', 674, ' Drone Ryze DJI com câmera HD branco 2.4GHz', 'https://http2.mlstatic.com/D_NQ_NP_676725-MLA45552150859_042021-O.webp', 3),
            ('Receptor Digital', 378.31, 'Receptor Digital Century Midiabox Azul Hd Tv Midia Box B4', 'https://http2.mlstatic.com/D_NQ_NP_993959-MLB47875568441_102021-O.webp', 3),
            ('Smart Tv Led 40 Philco', 1829, 'Smart Tv Led 40 Philco  Full Hd Com Wi-fi', 'https://http2.mlstatic.com/D_NQ_NP_856068-MLA46091996818_052021-O.webp', 3),
-           ('Ballantine Blended Finest', 78.9, 'Ballantine Blended Finest 1 L', 'https://http2.mlstatic.com/D_NQ_NP_681601-MLA44936267139_022021-O.webp', 2),
+           ('Ballantine', 78.9, 'Ballantine Blended Finest 1 L', 'https://http2.mlstatic.com/D_NQ_NP_681601-MLA44936267139_022021-O.webp', 2),
            ('Whisky Black Label', 139.56, 'Whisky Black Label 1 Litro Johnnie Walker', 'https://http2.mlstatic.com/D_NQ_NP_738602-MLB48252005589_112021-O.webp', 2),
            ('Bolinho De Laranja', 1.39, ' Bolinho De Laranja Bauducco 30g', 'https://http2.mlstatic.com/D_NQ_NP_861093-MLB44173115955_112020-O.webp', 1),
            ('Café Torrado 3 Corações', 16.46, 'Café Torrado e Moído Tradicional 3 Corações 500g', 'https://http2.mlstatic.com/D_NQ_NP_2X_998230-MLU47589139845_092021-F.webp', 1),
@@ -33,7 +33,7 @@ INSERT INTO product (title, price, description, image, category_id)
            ('Colar E Brinco', 78, 'Conjunto Colar E Brinco C/strass Noivas Festa Casamento Luxo', 'https://http2.mlstatic.com/D_NQ_NP_2X_697039-MLB45308647307_032021-F.webp', 5),
            ('Joia De Festa', 339, 'Conjunto Colar E Brincos De Luxo Folheado Cristal Zircônia - Noiva, Debutante, Madrinha- Pronta Entrega', 'https://http2.mlstatic.com/D_NQ_NP_2X_943763-MLB32484335086_102019-F.webp', 5),
            ('Conjunto Cristal Azul', 99, 'Delicado Colar + Brinco + Pulseira', 'https://i00.eu/img/413/1024x1024/bo3rr231/49597.jpg', 5),
-           ('Blusa Moletom Quadribol', 122, 'Blusa Moletom Quadribol Grifinória Harry Potter + Brinde', 'https://lojasupergeek.com.br/wp-content/uploads/2021/06/13253259604_moleton_canguru_raglan_quadribol_grifinoria_harry_potter_feminino_loja_super_geek_01.jpg', 4),
+           ('Blusa Moletom', 122, 'Blusa Moletom Quadribol Grifinória Harry Potter + Brinde', 'https://lojasupergeek.com.br/wp-content/uploads/2021/06/13253259604_moleton_canguru_raglan_quadribol_grifinoria_harry_potter_feminino_loja_super_geek_01.jpg', 4),
            ('Terno Masculino', 198.09, 'Terno Masculino Slim Paletó + Calça 2 Botões Corte Italiano', 'https://http2.mlstatic.com/D_NQ_NP_2X_785500-MLB32280607163_092019-F.webp', 4),
            ('Jaqueta Puma', 189.9, 'Jaqueta Puma Rtg Fz Feminina', 'https://http2.mlstatic.com/D_NQ_NP_2X_970205-MLB42520353475_072020-F.webp', 4)
 
