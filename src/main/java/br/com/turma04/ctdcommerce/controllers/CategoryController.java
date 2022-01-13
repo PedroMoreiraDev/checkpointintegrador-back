@@ -29,5 +29,6 @@ public class CategoryController {
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(categoryDTO.getId()).toUri();
         return ResponseEntity.created(uri).body(categoryDTO);
     }
+    
 }
 
