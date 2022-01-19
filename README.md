@@ -80,3 +80,5 @@ este end-point deverá disponibilizar os produtos de uma determinada categoria, 
 ]
 ```
 
+### Projeto final (já com integração back + front)
+![grab-landing-page](https://github.com/PedroMoreiraDev/checkpointintegrador-back/blob/main/gif-site-projeto-final.gif?raw=true)
